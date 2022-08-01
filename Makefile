@@ -15,16 +15,28 @@ NAME = libft.a
 
 
 all: $(NAME)
+	@echo "\e[1;96mCompilation Successfull ! ✅ \e[0m"
+	
 $(NAME) : $(OBJS)
-	$(AR) $(NAME) $(OBJS)
+	$(AR) $(NAME) $(OBJS) 
+	
 
 clean:
-	$(RM) $(OBJS) 
-	@echo "Ta Perdue"
+	
+	@rm -f $(OBJS)
+	clear
+	
+	@echo "\e[5;96m🧽$<\e[0m  \e[1;96mClean By Yatamago Corp  \e[5;96m🧽"
+	@echo -e
 
-fclean: clean 
-	$(RM) $(NAME)
-	@echo "j'ai gagner"
+fclean: 
+	
+	$(RM) $(NAME) $(OBJS)
+	clear
+	@echo "\e[5;96m🧽$<\e[0m  \e[1;96mFclean By Yatamago Corp  \e[5;96m🧽"
+	@echo -e
+
+
 
 re : fclean all
 
