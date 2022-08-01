@@ -1,6 +1,8 @@
 SRCS = ft_atoi.c \
 		ft_strdup.c \
 		ft_strlen.c \
+		ft_toupper.c \
+		ft_tolower.c \
 
 CC = gcc
 CFLAGS = -Wall -Werror -Wextra
