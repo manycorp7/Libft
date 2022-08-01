@@ -6,7 +6,7 @@
 /*   By: yatamago <yatamago@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/01 12:27:46 by yatamago          #+#    #+#             */
-/*   Updated: 2022/08/01 12:37:10 by yatamago         ###   ########.fr       */
+/*   Updated: 2022/08/01 12:41:57 by yatamago         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,6 @@ char    *strdup(const char *src)
         i++;
     }    
     dest[i] = '\0';
-    free (dest);
     return (dest);
 
 
