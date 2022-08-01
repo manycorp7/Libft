@@ -6,11 +6,11 @@
 /*   By: yatamago <yatamago@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/01 12:27:46 by yatamago          #+#    #+#             */
-/*   Updated: 2022/08/01 12:52:09 by yatamago         ###   ########.fr       */
+/*   Updated: 2022/08/01 17:25:04 by yatamago         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <libft.h>
+#include "libft.h"
 
 char    *strdup(const char *src)
 {

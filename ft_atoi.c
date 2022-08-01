@@ -6,12 +6,13 @@
 /*   By: yatamago <yatamago@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/01 12:27:51 by yatamago          #+#    #+#             */
-/*   Updated: 2022/08/01 12:29:26 by yatamago         ###   ########.fr       */
+/*   Updated: 2022/08/01 17:24:55 by yatamago         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <libft.h>
-int ft_atoi(char *str)
+#include "libft.h"
+
+int ft_atoi(const char *str)
 {
     int i;
     int signe;
@@ -20,7 +21,7 @@ int ft_atoi(char *str)
     i = 0;
     signe = 1;
     res = 0;
-    while(str[i] == 32 || str[i] >= 9 && str[i] <= 13)
+    while(str[i] == 32 || (str[i] >= 9 && str[i] <= 13))
     {
         i++;
     }
