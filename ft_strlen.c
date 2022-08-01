@@ -6,11 +6,11 @@
 /*   By: yatamago <yatamago@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/01 12:27:28 by yatamago          #+#    #+#             */
-/*   Updated: 2022/08/01 12:29:16 by yatamago         ###   ########.fr       */
+/*   Updated: 2022/08/01 13:22:21 by yatamago         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <Libft>
+#include <libft.h>
 size_t ft_strlen(const char *str)
 {   
     int i;
