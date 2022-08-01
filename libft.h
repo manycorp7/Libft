@@ -6,7 +6,7 @@
 /*   By: yatamago <yatamago@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/01 12:27:56 by yatamago          #+#    #+#             */
-/*   Updated: 2022/08/01 12:27:57 by yatamago         ###   ########.fr       */
+/*   Updated: 2022/08/01 12:42:45 by yatamago         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,3 +21,6 @@
 int ft_atoi(const char *str);
 size_t ft_strlen(const char *str);
 char    *strdup(const char *str);
+
+
+#endif
